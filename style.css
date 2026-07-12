@@ -1,3 +1,16 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(244, 246, 247);
+
+    text-decoration: double;
+}
+
+.hello{
+    border: solid 1px 50%;
+
+}
+
+table,td,tr{
+    border: solid red 3px;
+    border-collapse: collapse;
+    
 }
