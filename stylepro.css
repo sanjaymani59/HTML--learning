@@ -1,0 +1,45 @@
+.hi{
+    text-align:center;
+}
+
+.oii{
+    width: 100%;
+    background-color: blue;
+    height: 5px;
+}
+
+
+
+table,td,th {
+
+    background-color: beige;
+
+
+    margin-top: 100px;
+
+   
+
+    
+    border: solid rgb(233, 9, 173);
+
+    border-style: solid;
+    
+   
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+th,tr{
+
+    
+    height: 100px;
+}
+
+
+
+
+table{
+    width: 100% ;
+}
+
