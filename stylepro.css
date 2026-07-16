@@ -28,6 +28,7 @@ table,td,th {
     text-align: center;
     border-collapse: collapse;
 
+    
 }
 
 th,tr{
@@ -43,3 +44,14 @@ table{
     width: 100% ;
 }
 
+td:hover{
+    background-color: aqua;
+}
+th:hover{
+    background-color: chartreuse;
+}
+
+
+.a{
+    text-align: center;
+}
