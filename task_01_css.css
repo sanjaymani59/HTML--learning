@@ -25,3 +25,24 @@ button{
     
     width: 100px;
 }
+
+ul{
+    
+    font-size: 30px;
+
+    margin-left: 52px;
+}
+
+li a{
+
+    display: block;
+    color: aqua;
+    text-decoration: none;
+}
+
+li:hover{
+
+    background-color: blue;
+    color: black;
+}
+
