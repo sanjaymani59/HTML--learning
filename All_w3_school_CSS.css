@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(51, 164, 202);
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.large{
+    text-align: center;
+}
+
+/* universal selector (*) selects all HTML elements on the page */
+*{
+    text-align: center;
+}
+
+/* The grouping selector selects all the HTML elements with the same style definitions. */
