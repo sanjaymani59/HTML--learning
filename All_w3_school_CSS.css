@@ -67,3 +67,33 @@ p{
 
 
 /* The grouping selector selects all the HTML elements with the same style definitions. */
+
+
+.hello{
+    a:link{
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover{
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active{
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:visite{
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
