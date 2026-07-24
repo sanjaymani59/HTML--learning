@@ -92,8 +92,22 @@ p{
     }
 }
 
+img{
+    width: 100%;
+}
 
+h1{
+    background-color: tomato;
+}
+p{
+    background-color: mediumaquamarine;
+}
 
-
-
-
+.one p{
+    border-style: solid;
+    border-color: red green blue green;
+}
+p.two{
+    border-style: solid;
+    border-color: green;
+}
