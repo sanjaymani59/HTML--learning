@@ -111,3 +111,24 @@ p.two{
     border-style: solid;
     border-color: green;
 }
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+th,td{
+    background-color: #d06c16;
+    border-style: dotted;
+}
+
+address{
+    border-top-style: dotted;
+    border-right-style: double;
+    border-bottom-style: dotted;
+
+    border: 5px solid red;
+
+    border-radius: 100px;
+}
