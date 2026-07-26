@@ -132,3 +132,41 @@ address{
 
     border-radius: 100px;
 }
+
+
+div{
+    width: 100px;
+    overflow: auto;
+    width: 33%;
+    float:left;
+    display: inline-block;
+    display: flex;
+
+
+    background-color: aqua;
+   
+}
+
+.hello{
+    background-color: blueviolet;
+    text-align: justify;
+}
+
+
+#hi{
+    width: 100%;
+
+    background-color: red;
+    color: black;
+    padding: auto;
+    text-align: center;
+}
+
+p{
+    background-color: yellow;
+}
+
+h1{
+    background-color: green;
+    opacity: 0.6;
+}
