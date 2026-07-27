@@ -1,0 +1,194 @@
+.apple{
+    text-align: center;
+    color: rgb(194, 176, 144);
+}
+
+.orange{
+    text-align: center;
+    color: rgb(220, 164, 90);
+
+}
+
+.mango{
+    background-color: rgb(61, 56, 50);
+    margin-left: 40%;
+}
+
+body{
+    background-color: aliceblue;
+   
+  
+    
+}
+
+
+
+.goa{
+    padding: 30px;
+    margin-left: 40%;
+}
+
+#dog{
+    margin-left: 48%;
+    text-align: justify;
+}
+p{
+    font-family:cursive;
+}
+
+.jerry{
+    margin-left: 40%;
+    background-color:  brown;
+    height: 3px;
+}
+.ig{
+    /* float:left top; */
+    position: sticky;
+    /* top:2%; */
+   
+    width: 450px;  
+    flex-shrink: 0;
+}
+
+.ff{
+    position: absolute;
+    top:25%;
+    margin-left: 20%;
+    
+}
+
+
+
+
+.app{
+    position: absolute;
+    top: 34%;
+    margin-left: 17%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app1{
+     position: absolute;
+    top: 49%;
+    margin-left: 17%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.appp1{
+     position: absolute;
+    top: 52%;
+    margin-left: 17%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+
+
+
+
+
+.appp{
+    position: absolute;
+    top: 38%;
+    margin-left: 17%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.pineapple{
+    float:left
+  
+}
+
+.dd{
+   background-color: rgb(56, 49, 44);
+   position: absolute;
+   width: 20%;
+   top:33%;
+   margin-left: 15%;
+   height: 5px;
+    border-radius: 100px;
+    
+}
+.gg{
+     /* align-self: center;  */
+    /* margin:12%; 
+    margin-top:1px;  */
+    /* position: sticky; */
+    /* display:inline-block;  */
+    margin-left: 500px; 
+    width: 65%; 
+    background-color: bisque;
+    padding: 0px;  
+    height: 100vh;
+    flex-shrink: 0;
+    align-items:self-end;
+    /* margin: 3px; */
+    /* display: inline-block; */
+   
+}
+.hh{
+   
+    width: 35%;
+
+  
+    position:absolute;
+    background-color: rgb(98, 100, 102);
+    /* margin-left:250px; */
+    display: flex; 
+    /* width: 100%; */
+    min-height: 93vh;
+     width: 25%; 
+    height: 100vh;
+    top:10px;
+    flex-shrink: 0;
+    margin: 0;
+   
+
+    
+ 
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.nl{background-color: rgb(56, 49, 44);
+   position: absolute;
+   width: 18%;
+   top:47%;
+   margin-left: 15%;
+   height: 5px;
+  border-radius: 100px;
+
+}
+
+.nl1{
+    background-color: rgb(56, 49, 44);
+   position: absolute;
+   width: 18%;
+   top:60%;
+   margin-left: 15%;
+   height: 5px;
+  border-radius: 100px;
+}
+   
+
+*{
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+
