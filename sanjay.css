@@ -1,4 +1,4 @@
-.apple{
+/* .apple{
     text-align: center;
     color: rgb(194, 176, 144);
 }
@@ -10,8 +10,12 @@
 }
 
 .mango{
-    background-color: rgb(61, 56, 50);
+    padding: 63px;
+    padding-left: 70px;
+    text-align: center;
+    background-color: rgb(80, 68, 53);
     margin-left: 40%;
+    height: 200px;
 }
 
 body{
@@ -45,15 +49,18 @@ p{
     /* float:left top; */
     position: sticky;
     /* top:2%; */
+    position: relative;
    
-    width: 450px;  
-    flex-shrink: 0;
+    width: 300px; 
+    
+   /*  margin-left: 60px;
+    flex-shrink: 1;
 }
 
 .ff{
     position: absolute;
-    top:25%;
-    margin-left: 20%;
+    top:35%;
+    margin-left: 18%;
     
 }
 
@@ -62,14 +69,14 @@ p{
 
 .app{
     position: absolute;
-    top: 34%;
-    margin-left: 17%;
+    top: 44%;
+    margin-left: 16%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .app1{
      position: absolute;
-    top: 49%;
+    top: 57%;
     margin-left: 17%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -77,7 +84,7 @@ p{
 
 .appp1{
      position: absolute;
-    top: 52%;
+    top: 62%;
     margin-left: 17%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
@@ -91,7 +98,7 @@ p{
 
 .appp{
     position: absolute;
-    top: 38%;
+    top: 48%;
     margin-left: 17%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
@@ -105,57 +112,59 @@ p{
 .dd{
    background-color: rgb(56, 49, 44);
    position: absolute;
-   width: 20%;
+   width: 80%;
    top:33%;
-   margin-left: 15%;
+   margin-left: 1%;
    height: 5px;
     border-radius: 100px;
     
 }
 .gg{
-     /* align-self: center;  */
-    /* margin:12%; 
-    margin-top:1px;  */
+     align-self: center;  
+     margin:12%; 
+    margin-top:1px;  
     /* position: sticky; */
     /* display:inline-block;  */
+   /*  padding-block-start: 0;
     margin-left: 500px; 
     width: 65%; 
     background-color: bisque;
-    padding: 0px;  
+    padding: 0px;   
     height: 100vh;
     flex-shrink: 0;
     align-items:self-end;
-    /* margin: 3px; */
-    /* display: inline-block; */
+    margin: 3px; 
+    display: inline-block;
    
 }
-.hh{
-   
+.hh{ */
+/* 
+    align-items:first baseline ;
     width: 35%;
-
+    padding-inline-start: 50px;
+    padding-block-start: 5px;
   
     position:absolute;
-    background-color: rgb(98, 100, 102);
-    /* margin-left:250px; */
+    background-color: rgb(98, 100, 102); 
     display: flex; 
     /* width: 100%; */
-    min-height: 93vh;
+   /*  min-height: 93vh;
      width: 25%; 
     height: 100vh;
-    top:10px;
+    top:15px;
     flex-shrink: 0;
     margin: 0;
-   
+   gap: 0;
 
     
  
+ */
+
+ */
 
 
 
-
-
-
-}
+/* } */
 
 
 
@@ -166,9 +175,9 @@ p{
 
 .nl{background-color: rgb(56, 49, 44);
    position: absolute;
-   width: 18%;
+   width:80%;
    top:47%;
-   margin-left: 15%;
+   margin-left: 1%;
    height: 5px;
   border-radius: 100px;
 
@@ -177,9 +186,9 @@ p{
 .nl1{
     background-color: rgb(56, 49, 44);
    position: absolute;
-   width: 18%;
+   width: 80%;
    top:60%;
-   margin-left: 15%;
+   margin-left: 1%;
    height: 5px;
   border-radius: 100px;
 }
@@ -191,4 +200,4 @@ p{
     box-sizing: border-box;
 }
 
-
+ */
