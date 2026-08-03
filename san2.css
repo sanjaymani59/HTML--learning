@@ -1,11 +1,13 @@
 .left-side{
     top:8.5px;
     padding: 9px;
-    margin-left: o;
+    margin-left: 0;
     position:fixed;
     background-color: rgb(131, 104, 76);
     margin-left: 30px;
     height: 250vh;
+    width: 350PX;
+    zoom: 1;
 
 
 
@@ -18,49 +20,50 @@
     background-color: rgb(161, 150, 108);
     margin-right: 25px;
     height: 250vh;
+    /* position: fixed; */
 
 
 }
 
 p{
-    text-align: left;
+    text-align: left ;
     margin: 40px;
+    font-size: 30px;
 }
 
 
 .side-headings{
-    
-    margin-left: 20px;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 40px;
+    color: rgb(2, 48, 12);
 }
 
 p{
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .unorder-list{
-    margin-left: 65px;
+    margin-left: 200px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .unorder-list-left{
     margin-left: 10px;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 
-
-
-
-
-
-
-
-
-
-
-
+ img{
+    width:300px;
+    margin-top:0;
+    padding: 26px; 
+    padding-block-end: 26px;
+   
+}
 img{
-    width: 300px;
-    margin-top: 8px;
-    border: solid rgb(70, 106, 114) 25px ;
+    border: solid black;
 }
 
 .background-color-changeing{
@@ -70,6 +73,44 @@ img{
 }
 
 
-.whole-body{
 
+
+
+table,td {
+    table-layout:auto;
+    text-align:center;
+    background-color: rgb(212, 123, 123);
+    border: solid black 1px;
+    margin: 70px;
+    width: 1700px; 
+    height: 60px;
+    border-collapse: collapse;
+    margin-top: 00px;
+  
+    
 }
+thead{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+tbody{
+    text-align: justify;
+    font-size: 20px;
+    text-align:left;
+    
+}
+
+body{
+    
+    display: flex;
+    justify-content:left;
+    overflow-x: auto;
+}
+
+html{
+    transform-origin:center center;
+    width: 100%;
+}
+
