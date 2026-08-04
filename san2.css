@@ -1,4 +1,4 @@
-.left-side{
+ .left-side{
     top:8.5px;
     padding: 9px;
     margin-left: 0;
@@ -6,7 +6,7 @@
     background-color: rgb(131, 104, 76);
     margin-left: 30px;
     height: 250vh;
-    width: 350PX;
+    width: 550PX;
     zoom: 1;
 
 
@@ -16,7 +16,7 @@
 
 .right-side{
     top:10px;
-    margin-left: 400px;
+    margin-left: 600px;
     background-color: rgb(161, 150, 108);
     margin-right: 25px;
     height: 250vh;
@@ -59,7 +59,7 @@ p{
 }
 
  img{
-    width:300px;
+    width:500px;
     margin-top:0;
     padding: 26px; 
     padding-block-end: 26px;
@@ -88,7 +88,8 @@ table,td {
     width: 1700px; 
     height: 60px;
     border-collapse: collapse;
-    margin-top: 00px;
+    margin-top: 0px;
+    margin-left: 300px;
   
     
 }
@@ -130,4 +131,6 @@ html{
 } 
 
 
-
+.SOFTSKILLS{
+    
+}
