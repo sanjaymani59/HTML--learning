@@ -1,56 +1,50 @@
-*{
+.card{
+    width: 250px; 
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightyellow;
+    text-align: center;
+    border-radius: 10px;
+
+
+
+}
+body{
     margin: 0;
-    padding: 0;
-}
-
-
-.main{
-    width:100%;
-    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(image/tiger.jpg);
-    background-position: center;
-    background-size:cover;
-    height: 109vh;
-    
-}
-
-.nav{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-
-}
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-}
-
-.logo{
-    color: orange;
-    font-size: 45px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 0%;
-}
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-
-}
-
-ul{
-    float: left;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 
-
+    
 }
-ul.li{
-    list-style: none;
-   margin-left: 62px;
-   margin-top: 27px;
-   font-size: 15px;
+.bnt:hover{
+    background-color: rgb(191, 236, 42);
+}
+
+.navbar{
+    float: left;
+    position: absolute;
+    margin: 0;
+    top: 20px;
+    margin-left: 900px;
+    border: solid 4px rgb(254, 3, 3);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 9px;
+    text-decoration: none;
+        
+}
+.card button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 9px;
+    background-color: aqua;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar nav{
+    
 }
