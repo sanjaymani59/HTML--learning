@@ -7,7 +7,7 @@
     margin-left: 30px;
     height: 250vh;
     width: 550PX;
-    zoom: 1;
+
 
 
 
@@ -20,11 +20,9 @@
     background-color: rgb(161, 150, 108);
     margin-right: 25px;
     height: 250vh;
-    /* position: fixed; */
-
+   
 
 }
-
 p{
     text-align: left ;
     margin: 40px;
@@ -113,10 +111,7 @@ body{
     overflow-x: auto;
 }
 
-html{
-    transform-origin:center center;
-    width: 100%;
-}
+
 
  .skills{
     display: grid;
@@ -130,7 +125,3 @@ html{
     margin-left: 210px;
 } 
 
-
-.SOFTSKILLS{
-    
-}
