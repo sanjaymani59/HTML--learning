@@ -1,0 +1,44 @@
+.border{
+    width: 350px;
+    text-align: center;
+    height: 10px;
+  
+
+}
+
+.border1{
+    border: solid green 5px ;
+    height: 650px;
+    border-radius: 50px 50px;
+    background-color: rgb(239, 220, 195);
+}
+
+body{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* .image2{
+    width: 3px;
+}*/
+
+img{
+    width: 150px;
+    height:200px; 
+ } 
+hr{
+    height: 3px;
+    background-color: rgb(255, 67, 4);
+}
+
+.bottom{
+    font-size:10px;
+    text-align:left;
+    margin-left: 30px;
+    width: 600px;
+}
+
