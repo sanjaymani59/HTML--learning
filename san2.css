@@ -1,4 +1,9 @@
- .left-side{
+
+ *{
+
+  
+} 
+.left-side{
     top:8.5px;
     padding: 9px;
     margin-left: 0;
@@ -124,3 +129,29 @@ body{
 .skills ul{
     margin-left: 210px;
 } 
+
+.Achivementes{
+    padding: 20px;
+}
+
+.skills1{
+    padding: 30px;
+    
+}
+
+.education{
+    padding: 30px;
+
+}
+
+.aboutme{
+    padding: 30px;
+}
+
+.continer{
+    width: 12000px;
+    min-width: 1200px;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
