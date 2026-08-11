@@ -1,16 +1,13 @@
 
- *{
 
-  
-} 
 .left-side{
     top:8.5px;
     padding: 9px;
     margin-left: 0;
-    position:fixed;
+    position:absolute;
     background-color: rgb(131, 104, 76);
     margin-left: 30px;
-    height: 250vh;
+    height: 350vh;
     width: 550PX;
 
 
@@ -24,7 +21,7 @@
     margin-left: 600px;
     background-color: rgb(161, 150, 108);
     margin-right: 25px;
-    height: 250vh;
+    height: 350vh;
    
 
 }
@@ -79,13 +76,11 @@ img{
 }
 
 
-
-
-
 table,td {
+
     table-layout:auto;
     text-align:center;
-    background-color: rgb(212, 123, 123);
+    background-color: rgb(117, 75, 114);
     border: solid black 1px;
     margin: 70px;
     width: 1700px; 
@@ -93,15 +88,21 @@ table,td {
     border-collapse: collapse;
     margin-top: 0px;
     margin-left: 300px;
-  
-    
+   
 }
+table,tbody :hover{
+    background-color: rgb(227, 222, 121);
+}
+
+
+
+
 thead{
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
-
+table,thead,
 tbody{
     text-align: justify;
     font-size: 20px;
@@ -110,7 +111,7 @@ tbody{
 }
 
 body{
-    
+    top:0;
     display: flex;
     justify-content:left;
     overflow-x: auto;
@@ -148,10 +149,19 @@ body{
     padding: 30px;
 }
 
-.continer{
-    width: 12000px;
-    min-width: 1200px;
-    height: 100vh;
-    margin: 0;
-    background-color: white;
+
+
+button{
+    padding: 7px;
+    padding-top: 4px;
+    border-radius: 40px;
+    background-color: yellow;
+    margin-left: 10px;
+   
+}
+
+.button1{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
 }
