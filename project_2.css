@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.profile_image{
+    padding: 5px;
+    background-color: blue;
+    border-radius: 60%;
+    width: 30%;
+    height: 100%;
+}
+.image{
+    width: 500px;
+    height: 250px;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 255, 255);
+}
+.profile_image_card{
+    max-width: 570px;
+    width: 100%;
+    background-color: rgb(140, 235, 235);
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow:0 5px 10px rgba(0, 0, 0,0.1);
+
+
+
+
+}
+
+
+.profile_image{
+    padding: 3px;
+    background-color: rgb(255, 0, 0);
+
+    
+}
