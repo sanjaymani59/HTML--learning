@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
 
+
     
 }
 .bnt:hover{
@@ -45,6 +46,13 @@ body{
     font-size: 16px;
 }
 
-.navbar nav{
-    
+.nav{
+    width: 230px;
+    background-color: aqua;
+    border-radius: 20px;
 }
+
+*{
+    background-color: lightblue;
+}
+
