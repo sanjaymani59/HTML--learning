@@ -5,20 +5,82 @@
             HTML Project_03
         </title>
         <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                font-family: arial,sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                line-height: 1.5; 
+            }
             header{
                 background-color: black;
                 color: white;
                 padding: 20px;
                 text-align: center;
             }
+            header h1{
+                font-size: 40px;
+                letter-spacing: 2px;
+                margin-bottom: 10px;
+
+
+            }
+            header p{
+                font-size: 18px;
+
+            }
             nav{
                 padding: 15px;
                 background-color: lightgray;
+                text-align: center;
+                box-shadow: 0 3px 8px rgba(0,0,0,0.2);
             }
+            nav a{
+                color:#333;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: bold;
+
+            }
+
+            nav a:hover{
+                color: #007b00;
+                text-decoration: underline;
+                font-weight: bold;
+
+            }
+            main{
+                max-width: 1000px;
+                margin: 30px auto;
+                padding: 20px;
+
+            }
+
+
+            
             section{
                 padding: 20px;
                 margin: 10px;
                 border: 1px solid gray;
+                background-color: white;
+                border-radius: 1px solid #ddd;
+                transition: 0.3s;  
+
+            }
+            section:hover{
+               transform: translate(-5px); 
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+            }
+
+            section h2{
+                color: #242424;
+                margin-bottom: 10px;
+
             }
             footer{
                 background-color: black;
@@ -34,7 +96,9 @@
         </header>
 
         <nav>
-            Home|About|Content
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Content</a>
         </nav>
 
     <main>
@@ -45,7 +109,7 @@
             <p>
                 I am  learning HTML and CSS
             </p>
-
+            <a href="#" class="bnt">Learn More</a>
         </section>
         <section>
             <h2>
@@ -53,7 +117,8 @@
             </h2>
             <p> 
                 HTML and CSS learner
-            </p>
+            </p> 
+            <a href="#" class="btn">View Skills</a>
         </section>
 
         <details>
@@ -67,7 +132,7 @@
         </details>
     </main>
     <footer>
-        Copyright @ 2026
+        <p>Copyright @ 2026 | My Website</p>
     </footer>
 
     </body>
