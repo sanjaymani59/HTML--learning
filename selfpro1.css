@@ -1,0 +1,13 @@
+
+body{
+    border: solid 1px black;
+}
+.head{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    padding: 50px;
+    
+}
