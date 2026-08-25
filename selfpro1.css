@@ -1,6 +1,7 @@
 
 body{
     border: solid 1px black;
+    background-color: khaki;
 }
 .head{
 
@@ -9,5 +10,39 @@ body{
     display: flex;
     height: 100vh;
     padding: 50px;
+    border: solid brown 4px;
+
+  
+
     
+}
+
+h1{
+    color: blueviolet;
+    padding: 20px;
+    background-color: aqua;
+    width: 400px;
+    text-align: center;
+    word-spacing: 10px;
+    margin-left: 20px;
+    margin: 30px;
+    border: 4px solid white;
+    border-radius: 49px;
+
+}
+p{
+    color: coral;
+    background-color: cornsilk;
+    padding: 20px;
+    width: 300px;
+    font-size: 30px;
+    display: block;
+    word-spacing: 5px;
+    border: 4px solid rgb(255, 0, 132);
+    border-radius: 49px;
+}
+.hp{
+   font-style: italic;
+
+   
 }
