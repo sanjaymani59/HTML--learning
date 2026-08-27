@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+
+}
+
+nav{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+}
+
+ul,h1,li{
+    display: inline;
+
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: gray;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+}
+
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
