@@ -36,3 +36,45 @@ input{
     padding: 50px;
     text-align: center;
 }
+.prodect{
+    text-align: center;
+}
+.box{
+    border-color: black;
+    border-radius: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    height: 320px;
+}
+
+.box:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+img{
+    
+    width: 220px;
+    height: 220px;
+}
+
+.about{
+    text-align: center;
+    padding: 45px;
+    font-size: 20px;
+}
+.contact{
+    background-color: black;
+    color: aliceblue;
+}
+.contactfoot{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.contactfoot,p{
+    text-align: center;
+    padding-top: 8px;
+}
