@@ -19,29 +19,111 @@ li{
 .box{
     border: solid 3px rgb(215, 30, 30);
     display: inline-block;
-   /*  width: 220px;
+    width: 220px;
     height: 220px;
-    background-color: aliceblue; */
+    background-color: aliceblue;    
 
 }
 .images{
     text-align: center;
-    /* background-color: aliceblue;
-    padding: 20px; */
+    background-color: aliceblue;
+    padding: 20px; 
 
+}
+.out{
+    border: solid green 3px;
+    padding: 3px;
+    width: 215px;
+    margin-top: 0;    
+}
+h5{
+    border: solid yellow 3px;
+    height: 20px;
+    font-size: larger;
 }
 
 img{
-    /* width: 220px;
-    height: 220px; */
+    width: 220px;
+    height: 220px;
     display: inline-block;
-    /* background-color: aliceblue; */
+    background-color: aliceblue; 
     
 }
-p{
-    /* display:block;
+p:hover{
+    
+    display:block;
     padding: 10px;
-    /* background-color: aliceblue; */
-    color: black; */
+    background-color: rgb(5, 6, 7);
+    color: rgb(232, 226, 226); 
 }
 
+.contact{
+    text-align: center;
+    display: inline;
+}
+
+.con{
+    padding: 20px;
+}
+/*.btn,button{
+    padding-top: 5px;
+    padding:5px;
+    margin-top: 4px;
+    width: 200px;
+    margin-left: 42%;
+    text-align: left;
+    display: inline;
+    
+}
+.button{
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+  
+}
+
+.h4{
+    display: inline=block;
+    width: 16px;
+}
+h4{
+    display:inline-block;
+    width: 60px;
+    padding: 5px;
+} */
+
+.btn{
+    margin-top: 9px;
+    text-align: center;
+
+}
+.inline-to{
+    padding: 10px;
+}
+
+.in,h4{
+    display: inline;
+    margin-left: 5px;
+ 
+}
+
+button{
+width: 100px;
+text-align: left;
+background-color: aliceblue;
+color: rgb(3, 3, 3);
+font-family: 'Courier New', Courier, monospace;
+}
+
+.end{
+    text-align: center;
+}
+
+.endbtn{
+    width: 500px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    height: 30px;
+    border-radius: 20px;
+}
