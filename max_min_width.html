@@ -1,0 +1,55 @@
+<style>
+    .con{
+        display: flex;
+        justify-content: space-around;
+
+        flex-wrap: wrap;
+
+    }
+    .one{
+        background-color: rgb(255, 195, 30);
+        height: 20px;
+        width: 100%;
+        flex-basis: 20%;
+         
+    }
+
+    @media screen and (min-width:1000px) {
+        .one{
+            flex-basis:100%;
+        }
+
+        
+    }
+
+    @media screen and (min-width:600px) {
+        .one{
+            flex-basis:50%;
+        }
+
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+<div class="con">
+
+<div class="two"></div>
+
+<div class="one"></div>
+
+<div class="one"></div>
+<div class="one"></div>
+<div class="one"></div>
+</div>

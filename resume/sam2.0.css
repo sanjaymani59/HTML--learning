@@ -1,0 +1,53 @@
+*{
+    top:0;
+    margin: 0;
+    padding: 0;
+    position: static;
+    
+}
+body{
+    width: 100%;
+    max-height: 100vh;
+
+}
+
+.right-side{
+    display: inline-block;
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+   
+}
+
+.left-side{
+    position: absolute;
+    top:0;
+    background-color: rgb(131, 234, 148);
+    color:red;
+    width: 302px;
+
+}
+
+img{
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+}
+
+.heading-color{
+    padding: 10px;
+    text-align: center;
+    background-color: darkmagenta;
+    border: solid gray 4px;
+}
+
+.button1{
+    margin-right: 50%;
+}
+
+@media screen  {
+
+    
+}
