@@ -190,44 +190,31 @@ button{
 
 
 
-@media  screen and (max-width:600px ) {
+@media  screen and (max-width:390px ) {
 
     .continer{
         margin: auto;
         margin-top: 0px;
         margin-left: 0px;
+}
         
 
         }
 
     .right-side{
         height: 500vh; 
+        width:70%;
+
+}
         
 
-    }
     .left-side{
-
+          width: 27%;
        
         height: 500vh;
     
        
     }
 
-    body{
-
-   
-    /* position: absolute;
-    max-width: 100%; */
-
-}
-
-img{
-    /* max-width:100% ;
-    height: auto; */
-}
-
-
-
-}
 
     
