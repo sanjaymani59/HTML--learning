@@ -215,6 +215,7 @@ button{
         height: 400vh; 
         flex-grow: 2;
         display: inline-block; 
+        width: 1100px;
     }
         
 
@@ -228,7 +229,9 @@ button{
         position:absolute;
         background-color: rgb(66, 226, 213);
         height: 399vh;
-        width: 286PX;
+        width: 286PX; 
+
+       
         flex-grow: 1; 
     }
 
@@ -259,7 +262,7 @@ table,tbody :hover{
 *{
     color: rgb(0, 0, 0);
     font-size: 20px;
-}
+    width: auto;
 
 .side-headings{
     padding: 10px;
@@ -274,5 +277,22 @@ table,tbody :hover{
 }
 .unorder-list-left,a{
    text-decoration: none;
+}
+
+table,td {
+    flex-wrap: wrap;
+
+
+    table-layout:auto;
+    text-align:center;
+    background-color: rgb(117, 75, 114);
+    border: solid black 1px;
+    margin: 70px;
+    width: 850px; 
+    height: 60px;
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-left: 100px;
+   
 }
 }
