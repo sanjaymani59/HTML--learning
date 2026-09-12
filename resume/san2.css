@@ -202,6 +202,11 @@ button{
         margin-top: 0px;
         margin-left: 0px;
 }
+
+.span{
+    text-decoration: double;
+    color: rgb(9, 33, 255);
+}
         
 
 
@@ -270,11 +275,12 @@ table,tbody :hover{
     padding: 10px;
     font-size: 30px;
     margin-left: 10px;
-    color:tomato
+    color:rgb(129, 79, 99)
 }
 
 .leftheading{
     margin-left: 20px;
+    color: orange;
 
 }
 .unorder-list-left,a{
@@ -297,4 +303,7 @@ table,td {
     margin-left: 100px;
    
 }
+}
+
+
 }
