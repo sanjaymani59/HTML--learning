@@ -10,6 +10,7 @@
     width: 70%;
     display: inline-block;
     margin-left: 25%;
+    text-overflow: ellipsis;
   
 }
 .left{
@@ -17,12 +18,14 @@
     width: 20%;
     margin-left: 5%;
     position: absolute;
+    text-overflow: ellipsis;
    
 } 
 img{
     width: 60%;
     margin-left: 20%;
     border-radius: 50%;
+    margin-bottom: 30px;
 
 } 
 h3{
@@ -40,17 +43,19 @@ p{
     margin-bottom: 10px;
 }
 ul{
-    margin-left: 70px;
+    margin-left: 20px;
 }
 table{
     align-items: center;
     margin-left: 80px;
+    
 }
 
 table,thead,tr,td{
     align-items: center; 
     margin-left: 30px;
     background-color: blueviolet;
+    
 
 }
 
@@ -59,8 +64,4 @@ table,tbody,thead,tr,td{
     border-collapse: collapse;
 }
 
-table.center{
-   
-    text-align: center;
-}
 

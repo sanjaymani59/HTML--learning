@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+
+</head>
+<body>
+    <div class="continer">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="outputScreen">
+            <button onclick="clear()">Clear</button>
+            <button onclick="del()">del</button>
+            <button onclick="display()">+</button>
+            <button onclick="display()">-</button>
+            <button onclick="display()">*</button>
+            <button onclick="display()">%</button>
+            <button onclick="display()">/</button>
+            <button onclick="display()">.</button>
+            <button onclick="display()">1</button>
+            <button onclick="display()">5</button>
+            <button onclick="display()">8</button>
+
+            <button onclick="calculate()" class="equal">=</button>
+        </div>
+    </div>
+
+    <script>
+        let outputScreen =document.getElementById("outputScreen")
+
+        function display(num){
+            outputScreen.value+=num;
+        }
+        function calculate(){
+            try{
+                outputScreen.value=eval(outputScreen.value);
+            }
+            catch{
+                alert("invalide")
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
