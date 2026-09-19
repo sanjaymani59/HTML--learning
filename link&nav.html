@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINK & NAV </title>
+    <style>
+        *{
+            margin: 0;
+            top: 0;
+            font-family: sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        header{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 15px 10%;
+            background-color:gray;
+
+            
+        }
+        .logo{
+            cursor: pointer;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color:orange ;
+            margin-right: auto;
+
+        }
+        .nav-bar,li a{
+            transform: 1;
+            font-size: 20px;
+        }
+
+        .nav-bar,li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        
+        .nav-bar li a.active{
+            color: red;
+        }
+        .nav-bar li a:hover{
+            color: darkmagenta;
+        }
+
+        .action{
+            padding: 10px 25px;
+            background-color: orange;
+            border-radius: 40px;
+            transition: 0.5s;
+
+        }
+
+        .action:hover{
+            background-color:greenyellow;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Link & Nav </a>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#" class="active">ABOUT</a></li>
+                <li><a href="#">DOWNLODE</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="action">Call As </a>
+    </header>
+
+    
+</body>
+</html>
