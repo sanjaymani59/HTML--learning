@@ -9,7 +9,7 @@
     padding: 9px;
     margin-left: 0;
     position:absolute;
-    background-color: rgb(152, 114, 74);
+    background-color:lightblue;
     /* margin-left: 30px;  */
      height: 199vh; 
     width: 550PX;
@@ -25,7 +25,8 @@
 .right-side{
     top:10px;
     margin-left: 569px;
-    background-color: rgb(161, 150, 108);
+    /* background-color: rgb(161, 150, 108); */
+    background-color:lightgray;
     margin-right: 25px;
     height: 200vh; 
     flex-grow: 2;
@@ -98,8 +99,8 @@ image{
 }
 
 .background-color-changeing{
-    background-color: rgb(224, 57, 239);
-    border: 10px solid rgb(194, 61, 61);
+    background-color: rgb(215, 184, 218);
+    border: 10px solid rgb(245, 104, 104);
     
 }
 
@@ -110,7 +111,7 @@ table,td {
 
     table-layout:auto;
     text-align:center;
-    background-color: rgb(117, 75, 114);
+    background-color: mintcream;
     border: solid black 1px;
     margin: 70px;
     width: 1000px; 
@@ -118,6 +119,7 @@ table,td {
     border-collapse: collapse;
     margin-top: 0px;
     margin-left: 300px;
+    font-size: 25px;
    
 }
 table,tbody :hover{
@@ -180,8 +182,9 @@ body{
 }
 
 .aboutme{
-     padding: 30px; 
-     background-color: rgb(161, 150, 108);
+      padding: 30px; 
+      background-color:lightslategray
+     /*background-color: rgb(161, 150, 108); */
 }
 
 tbody,tr,td,li{
@@ -233,7 +236,7 @@ button{
     .right-side{
         top:0px;
         margin-left: 286px;
-        background-color: rgb(114, 108, 228);
+        background-color:lightgray;
         margin-right: 5px;
         height: 200vh; 
         flex-grow: 2;
@@ -255,7 +258,7 @@ button{
         padding: 0px;
         margin-left: 0;
         position:absolute;
-        background-color: rgb(66, 226, 213);
+        background-color:lightblue;
         /* height: 399vh;  */
         /* height: 409vh;  */
         width: 286PX; 
@@ -311,8 +314,9 @@ table,td {
 
     table-layout:auto;
     text-align:center;
-    background-color: rgb(117, 75, 114);
-    border: solid black 1px;
+    background-color: mintcream;
+   
+    border: solid rgb(203, 32, 32) 4px;
     margin: 70px;
     width: 850px; 
     height: 60px;
@@ -325,8 +329,19 @@ table,td {
 
 .aboutme{
      padding: 30px; 
-      background-color: rgb(114, 108, 228);
+      background-color:lightgray;
 }
 
+.background-color-changeing{
+    background-color: rgb(229, 145, 237);
+    border: 10px solid rgb(245, 104, 104);
 
+}
+
+.leftcontiner{
+   background-color: aliceblue;
+   display: flex;
+   height: 100vb;
+   
+}
 }
