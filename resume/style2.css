@@ -51,5 +51,26 @@ section{
     padding: 30px;
     margin-bottom: 25px;
     border-radius: 20px;
-    box-shadow: 0 3px 10px lightblue`;
+    box-shadow: 0 3px 10px lightblue
+    ;
+}
+
+section h2{
+    color: #243b55;
+    margin-bottom: 10px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+
+.home img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #243b55;
 }
