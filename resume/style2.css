@@ -74,3 +74,42 @@ section h2{
     border-radius: 50%;
     border: 5px solid #243b55;
 }
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #243b55;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+} 
+
+.button:hover{
+    background-color: #007bff;
+}
+
+.skills{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill{
+    background-color: #243b55;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+.skill:hover{
+    transform: scale(1.05);
+    background-color: #007bff;
+}
+
+footer{
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
