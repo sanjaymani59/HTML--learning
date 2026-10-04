@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt04</title>
+    <style>
+        body{
+            background-color: lightgray;
+            font-family: Arial;
+        }
+        .fome-box{
+            background-color: white;
+            width: 400px;
+            margin: 50px auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+        }
+
+        label{
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type='text'],
+        input[type='email'],
+        input[type='number'],
+        select,textarea{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        
+        textarea{
+            height: 100px;
+            resize: none;
+
+        }
+
+        button{
+            width: 100px;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h1>Gtp 04</h1>
+        <form>
+            <lable>Name</lable>
+            <input type="text" placeholder="Enter Your Name ">
+
+            <lable>Email</lable>
+            <input type="email" placeholder="Enter Your email ">
+
+            <lable>Age</lable>
+            <input type="number" placeholder="Enter Your Age ">
+
+            <lable>Gender</lable>
+            <input type="radio" name="gender">
+            <span>Male</span>
+
+            <input type="radio" name="gender">
+            <span>Female</span>
+            
+            <input type="radio" name="gender">
+            <span>Other</span>
+
+            <label>Skills</label>
+            <input type="checkbox">
+            <span>HTML</span>
+
+            <input type="checkbox">
+            <span>java script</span>
+
+           <label>Coures</label>
+           <select>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+
+           </select>
+
+           <label>About you</label>
+
+           <textarea placeholder="write something about yourself"></textarea>
+
+           <button type="submit">
+            Register
+           </button>
+
+        </form>
+    </div>
+</body>
+
+</html>
