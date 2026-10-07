@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt 07</title>
+    <style>
+        body{
+            font-family: arial;
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        .box{
+            background-color: white;
+            width: 300px;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h2{
+            font-size: 50px;
+        }
+        button{
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 19px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1><bold>counter</bold></h1>
+        <h2 id="count">0</h2>
+
+        <button onclick="increase()" >+</button>
+        <button onclick="decrease()" >-</button>
+        <button onclick="reset()" >Reset</button>
+    </div>
+    
+</body>
+</html>
+<script>
+    let count=0;
+
+    function increase(){
+        count++;
+        document.getElementById("count").innerHTML=count;
+
+    }
+
+    function decrease(){
+        count--;
+        document.getElementById("count").innerHTML=count;
+
+    }
+
+    function reset(){
+        count=0;
+        document.getElementById("count").innerHTML=count;
+    }
+
+</script>
