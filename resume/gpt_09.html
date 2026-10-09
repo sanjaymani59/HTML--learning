@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gpt _09</title>
+
+    <style>
+        body{
+            font-family: arial;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        h1{
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        .products{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product{
+            background-color: white;
+            width: 200px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px gray;
+           margin: 20px;
+
+        }
+
+        button{
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background-color: darkgreen;
+        }
+
+        li{
+            margin: 10px;
+            text-decoration: none;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>My Shopping store</h1>
+    <div class="products">
+    <div class="product">
+        <h2>Keyboard</h2>
+        <button onclick="addtocart('Keyboard',500)">
+            Add To Cart </button>
+    </div>
+
+
+    <div class="product">
+        <h2>mouse</h2>
+        <button onclick="addtocart('mouse',300)">Add To Cart </button>
+    </div>
+
+
+    <div class="product">
+        <h2>wire</h2>
+        <button onclick="addtocart('wire',100)">Add To Cart </button>
+    </div>
+
+    </div>
+
+    <h2>My cart</h2>
+
+    <ul id="Cart"></ul>
+
+    <h3>Total :<span id="total">0</span></h3>
+    
+
+    
+</body>
+</html>
+
+<script>
+    let total=0;
+
+    function addtocart(name,price){
+        let item = document.createElement('li');
+
+        item.innerText=name+" - "+price;
+
+        let removeButton =document.createElement("button");
+        removeButton.innerText="Remove";
+
+        removeButton.onclick=function(){
+            total =total-price;
+
+            document.getElementById("total").innerText=total;
+            item.remove();
+        };
+
+
+
+        item.appendChild(removeButton);
+
+
+
+        document.getElementById("Cart").appendChild(item);
+
+        total=total+price;
+        document.getElementById("total").innerText=total;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
