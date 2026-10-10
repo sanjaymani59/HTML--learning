@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT 10</title>
+    <style>
+        body{
+            font-family: arial;
+            background-color: lightblue;
+            text-align: center;
+        }
+        .container{
+            background-color: white;
+            width: 350px;
+            margin: 80px auto;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        
+        input{
+            padding: 10px;
+            width: 90%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button{
+            padding: auto;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        li{
+            margin: 15px 0;
+            text-align: left;
+        }
+
+        .completed{
+            text-decoration: line-through;
+            color: gray;
+
+        }
+        .delete{
+            background-color: red;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+
+        <input type="text" id="taskInput" placeholder="Enter Your Task">
+
+        <button onclick="addTask()" >Add Task </button>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+    
+</body>
+</html>
+<script>
+    function addTask(){
+        let input = document.getElementById("taskInput");
+        let taskInput = input.value.trim();
+
+    if (taskName===""){
+        alert("please enter a task!");
+        return;
+    }
+
+    let li=document.createElement("li");
+
+
+    li.innerText=taskName;
+
+    li.onclick=function(){
+        li.classList.toggle("completed");
+    };
+
+    let deleteButton=document.createElement("button");
+
+    deleteButton.innerText="Delete";
+    deleteButton.className="delete";
+
+    deleteButton.onclick=function (event){
+        event.stopPropagation();
+        li.remove();
+    };
+
+    li.appendChild(deleteButton);
+
+    document.getElementById("taskList").appendChild(li);
+
+    input.value="";
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
