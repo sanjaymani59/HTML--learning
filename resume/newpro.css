@@ -1,0 +1,22 @@
+body{
+    background: rgb(34,193,195);
+    background-color: linear-gradient(0deg,rgba(34,193,195,1)0% , rgba(121,32,153,1) 85%);
+    background-attachment: fixed;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+#form{
+    width: 400px;
+    margin: 29vb auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: #792099;
+}
+
+/* 6;44 */
