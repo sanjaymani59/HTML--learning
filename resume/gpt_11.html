@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt_11</title>
+    <style>
+        body{
+            font-family: arial;
+            background-color: #222;
+            color: white;
+            text-align: center;
+        }
+        .clock-box{
+            background-color: #333;
+            width: 350px;
+            margin: 150px auto;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        h1{
+            color: orange;
+        }
+
+        h2{
+            font-size: 45px;
+            color: lightgreen;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="clock-box">
+        <h1>DIGITAL Clock</h1>
+
+        <h2 id="time">00:00:00</h2>
+        <p id="date"></p>
+
+    </div>
+
+
+    
+</body>
+</html>
+
+<script>
+    function shoeTime(){
+        let now =new Date();
+
+        let time=now.toLocaleTimeString();
+
+        let date=now.toLocaleDateString();
+
+        document.getElementById("time").innerText=time;
+        document.getElementById("date").innerText=date;
+
+    }
+
+    shoeTime()
+</script>
