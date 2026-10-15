@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt _13</title>
+
+    <style>
+        body{
+            font-family: arial;
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        .quiz-box{
+            background-color: white;
+            width: 350px;
+            margin: 60px auto;
+            padding: 25px;
+            border-radius: 15px;
+        }
+
+        button{
+            display: block;
+            width: 90%;
+            margin:12px auto ;
+            padding: 12px;
+            background-color: royalblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+        button:hover{
+            background-color: darkblue;
+        }
+
+        #message{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-box">
+        <h3 id="question">question appears here</h3>
+
+        <button onclick="checkAnswer('A')" id="option">A</button>
+        <button onclick="checkAnswer('B')" id="option">B</button>
+        <button onclick="checkAnswer('c')" id="option">c</button>
+
+        <p id="message"></p>
+
+        <button onclick="nextQuestion()">Next Question</button>
+
+        <h3 id="score">score:</h3>
+
+        
+    </div>
+    
+</body>
+</html>
+
+<script>
+    let questions=[{
+        question: "1. which language creates a webpage structure?",
+        A: "html",
+        B:"css",
+        C: "java",
+        answer : "B"
+    }
+    {
+        question: "2. which language style a webpage?",
+        A: "html",
+        B:"css",
+        C: "java",
+        answer : "B"
+    }
+    {
+        question: "1. which language adds webpage interactive?",
+        A: "html",
+        B:"css",
+        C: "java",
+        answer : "B"
+    }
+    ];
+
+    let currentQuestion =0;
+    let score=0;
+    let answered =false;
+
+    function showQuestion(){
+        let q = questions[currentQuestion];
+
+        document.getElementById("question ").innerText=q.question;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
