@@ -69,14 +69,14 @@
         B:"css",
         C: "java",
         answer : "B"
-    }
+    },
     {
         question: "2. which language style a webpage?",
         A: "html",
         B:"css",
         C: "java",
         answer : "B"
-    }
+    } ,
     {
         question: "1. which language adds webpage interactive?",
         A: "html",
@@ -94,12 +94,59 @@
         let q = questions[currentQuestion];
 
         document.getElementById("question ").innerText=q.question;
+        document.getElementById("optionA").innerText="A" + q.A;
+        document.getElementById("optionb").innerText="B" + q.B;
+        document.getElementById("optionC").innerText="C" + q.C;
+
+        document.getElementById("message").innerText="";
+
+        answered=false;
+ }
+
+    function checkAnswer(choice){
+        if(answered){
+            return;
+        }
+
+        let correctAnswer =questions[currentQuestion].answer;
+
+        if(choice === correctAnswer){
+            score++;
+
+            document.getElementById("message").innerText="correct!!!";
+
+        }
+        else{
+            document.getElementById("message").innerText="wrong answer!!!";
+
+        }
+
+        document.getElementById("score").innerText="score:" +score;
+
+        answered=true;
+
     }
 
 
+    function nextQuestion(){
+        if(currentQuestion < questions.length-1){
+            currentQuestion++;
+            showQuestion();
+        }
+        else{
+            document.getElementById("question").innerText="Quiz completed";
+
+            document.getElementById("optionA").style.display="none"
+            document.getElementById("optionb").style.display="none"
+            document.getElementById("optionC").style.display="none"
 
 
+            document.getElementById("message ").innerText="your final score :"+score+"/"+questions.length;
+        }
+    }
 
+
+showQuestion();
 
 
 
