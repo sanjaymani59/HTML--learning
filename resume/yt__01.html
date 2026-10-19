@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt __15</title>
+
+    <style>
+        body{
+            text-align: center;
+            font-family: arial;
+            margin-top: 100px;
+            background-color: lightblue;
+        }
+
+        input{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>login page </h2>
+    <input type="password" id="password" placeholder="Enter password">
+
+    <br><br>
+
+    <input type="checkbox" onclick="showPassword()">
+    Show Password
+
+    <script>
+        function showPassword(){
+            let password = document.getElementById("password");
+
+            if (password.type=== "password"){
+                password.type='text';
+
+            }
+            else{
+                password.type='password';
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
