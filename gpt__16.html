@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Random Number </title> 
+    </head>
+    <body>
+        <h2>Random Number Generator </h2>
+
+        <h1 id="number" >0</h1>
+
+        <button onclick="generateNumber()"> Genterate </button>
+        <script>
+            function generateNumber(){
+                let num = math.floor(math.random ()*100)+1;
+
+                document.getElementById("number").innerHTML=num;
+            }
+
+
+        </script>
+    </body>
+</html>
