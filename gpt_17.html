@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt__17</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 100px;
+            font-family: arial;
+        }
+
+        button{
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Like Button</h2>
+    <p id="count" >0 Likes</p>
+
+    <button onclick="like()">like</button>
+    <script>
+        let likes=0;
+        function like() {
+            likes++;
+
+            document.getElementById("count").innerHTML=likes+"Likes";
+        }
+    </script>
+</body>
+</html>
