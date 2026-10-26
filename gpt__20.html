@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt_20</title>
+
+    <style>
+        body{
+            text-align: center;
+            margin-left: 100px;
+            font-family: arial;
+            background-color: lightblue;
+        }
+
+        input,button{
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h2>Age Calculator</h2>
+
+    <input type="number" id="year" placeholder="Enter your year of birth:">
+
+    <button onclick="calculaterAge()">Calculator</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        function calculaterAge(){
+            let year = Number(document.getElementById("year").value);
+            let currentyear=new Date().getFullYear();
+
+            if(year >0 && year<= currentyear){
+                let age = currentyear-year;
+                document.getElementById("result").innerHTML="your age is "+
+                age;
+
+            }
+            else{
+                document.getElementById("result").innerHTML="Enter the valide year"
+            }
+        }
+    </script>
+</body>
+</html>
