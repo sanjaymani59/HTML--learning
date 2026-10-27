@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt__21</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 100px;
+            font-family: arial;
+            background-color: lightyellow;
+        }
+        input,button{
+            padding: 10px;
+
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome </h2>
+    <input type="text" id="name" placeholder="Enter your name :">
+    <button onclick="greet()">submit</button>
+    <h3 id="result"></h3>
+    <script>
+        function greet(){
+            let name=document.getElementById("name").value;
+
+            document.getElementById("result").innerHTML="hello  "+name+"!";
+        }
+    </script>
+</body>
+</html>
