@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>color changer</title>
+     <style>
+        body{
+            text-align: center;
+            font-family: arial;
+            background-color: lightblue;
+            padding-top: 100px;
+        }
+
+        h1{
+            color:darkblue;
+        }
+
+        button{
+            background-color: blue;
+            border: none;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: darkblue;
+        }
+
+     </style>
+</head>
+<body>
+    <h1> color changer</h1>
+    <p>click the button to change the backgroung color.</p>
+    <button onclick="changecolor()">change color</button>
+    <script>
+        function changecolor(){
+            document.body.style.backgroundColor="lightgreen "
+        }
+    </script>
+</body>
+</html>
