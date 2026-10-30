@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 50px;
+            font-family:artal;
+            background-color: lightblue;
+        }
+
+        input,button{
+            padding: 10px;
+        }
+
+        #result{
+            margin-top:20px;
+            line-height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Multiplication Table</h2>
+    <input type="number" id="num" placeholder="Enter a number">
+
+    <button onclick="gernerate()">Generate</button>
+
+    <div id="result"></div>
+
+
+    <script>
+        function gernerate(){
+            let num=Number(document.getElementById("num").value);
+
+            let output="";
+
+            for(let i=1;i<=10;i++){
+                output+=num+"x"+i+"="+(num*i)+"<br>";
+
+            }
+            document.getElementById("result").innerHTML=output;
+        }
+    </script>
+</body>
+</html>
