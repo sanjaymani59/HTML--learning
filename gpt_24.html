@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 100px;
+            font-family: arial;
+            background-color: lightyellow;
+        }
+
+        input,button{
+            padding: 10px;
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Vowle Counter </h2>
+    <input type="text" id="text" placeholder="Enter a word">
+
+    <button onclick="countVowels()">Count</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+
+        function countVowels(){
+            let text =document.getElementsById("text").value;
+            let count=0;
+
+            for(let i=0;i<=text.length;i++){
+                let ch = text[i].toLowerCase();
+            
+                if("aeiou".includes(ch)){
+                    count++;
+                }
+            }
+            document.getElementById("result").innerHTML="Total Vowels :"+ count;
+        }
+    </script>
+</body>
+</html>
