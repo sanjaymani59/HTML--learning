@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 100px;
+            font-family: arial;
+            background-color: lightblue;
+        }
+        h1{
+            font-size: 80px;
+        }
+
+        button{
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Emoju Changer</h2>
+
+    <h2 id="emoji">😊</h2>
+
+    <button onclick="changeEmoji()">change</button>
+    <script>
+        function changeEmoji(){
+            let emoji= ["😊", "😂", "😍", "😎", "🥳"];
+            let random=Math.floor(Math.random()*emoji.length);
+
+            document.getElementById("emoji").innerHTML=emoji[random];
+        }
+
+    </script>
+</body>
+</html>
