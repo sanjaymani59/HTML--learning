@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 100px;
+            font-family: arial;
+            background-color: lightblue;
+        }
+        input,button{
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1 id="text">hello world</h1>
+    <h3>message box</h3>
+    <input type="text" id="msg" placeholder="Enter message">
+
+    <button onclick="sm()">send</button>
+    <p id="resutl"></p>
+    <script>
+        function sm(){
+            let message= document.getElementById("msg").value;
+
+            document.getElementById("resutl").innerHTML=message;
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--   <h1 id="text">hello world</h1>
 
     <button id="btn">change text</button>
 
@@ -17,7 +95,7 @@
             document.getElementById("btn").onclick=function(){
                 document.getElementById("text").innerHTML='you clicked it '
             }
-        </script>
+        </script> -->
     
 </body>
 </html>
