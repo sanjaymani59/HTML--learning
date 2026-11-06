@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(120deg,blue,purple);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vb;
+            font-family: arial;
+        }
+        .clock{
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px black;
+        }
+
+        h1{
+            color: purple;
+        }
+        h2{
+            font-size: 40px;
+            color: blue;
+        }
+        p{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <h1>Digital clock</h1>
+        <h2 id="time">00:00:00</h2>
+        <p id="date"></p>
+    </div>
+    <script>
+        function showTime(){
+            let now =new Date();
+
+            let time=now.toLocaleTimeString();
+            let date=now.toDateString();
+
+            document.getElementById("time").innerHTML=time;
+            document.getElementById("date").innerHTML=date;
+        }
+        setInterval(showTime,1000);
+        showTime();
+    </script>
+</body>
+</html>
