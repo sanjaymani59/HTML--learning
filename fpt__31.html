@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: lightblue;
+            color: black;
+        }
+        button{
+            padding: 1px;
+            width: 100px;
+         
+        }
+    </style>
+</head>
+<body>
+    <h2>even or odd</h2>
+
+    <input id="num" placeholder="Enter number :">
+    <button onclick="check()">click</button>
+
+    <p id="result"></p>
+
+    <script>
+        function check(){
+            let n=Number(document.getElementById("num").value);
+            document.getElementById("result").innerHTML=n%2==0?'even':"odd";
+        }
+    </script>
+</body>
+</html>
