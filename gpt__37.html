@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>vowel counter</h2>
+    <input id="text" placeholder="Enter a word">
+
+    <button onclick="count()">count</button>
+    <p id="result"></p>
+    <script>
+        function count(){
+            let s=text.value.toLowerCase(),c=0;
+            for(let ch of s) if ("aeiou".includes(ch)) c++;
+            result.innerHTML="vowels:" +c;
+        }
+    </script>
+</body>
+</html>
