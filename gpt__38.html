@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 200px;
+        }
+        button{
+            border-radius: 20px;
+            color: green;
+            background-color: aqua;
+        }
+        input{
+            background-color: fuchsia;
+            color: rgb(20, 13, 225);
+        }
+        p{
+            color: red;
+            padding: 10px ;
+          
+            background-color: white;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h2>reverse number</h2>
+    <input id="num" placeholder="Enter number">
+    <button onclick="reverse()">reverse</button>
+    <p id="result"></p>
+
+    <script>
+        function reverse(){
+            let n=num.value;
+            result.innerHTML="reverse"+ n.split("").reverse().join("");
+        }
+    </script>
+</body>
+</html>
