@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Check Palindrome</title>
+    <style>
+        body{
+            background-color: lightblue;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>palindrome checker</h2>
+
+    <input id="word" placeholder="enter the word">
+    <button onclick="check()">check</button>
+    <p id="result"></p>
+
+    <script>
+        function check(){
+            let s=word.value.toLowerCase();
+
+            result.innerHTML=s==s.split("").reverse().join("")?"palindrome":"not palindrome";
+        }
+    </script>
+</body>
+</html>
