@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: arial;
+            margin-top: 100px;
+        }
+        button{
+            padding: 10px 20px;
+            margin: 5px;
+            background: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        h1{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Digital counter </h1>
+    <h2 id="count">0</h2>
+
+    <button onclick="increase()">+</button>
+    <button onclick="decrease()">-</button>
+    <button onclick="reset()">reset</button>
+    <script>
+        let number=0;
+
+        function increase(){
+            number++;
+            document.getElementById("count").innerHTML=number;
+        }
+        function decrease(){
+            number--;
+            document.getElementById("count").innerHTML=number;
+
+        }
+
+        function reset(){
+            number=0;
+            document.getElementById("count").innerHTML=number;
+        }
+    </script>
+    
+</body>
+</html>
