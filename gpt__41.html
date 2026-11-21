@@ -17,10 +17,25 @@
     <input id="num" placeholder="enter number">
     <button onclick="calc()">calculation</button>
     <p id="result"></p>
+
+    <h2>Factorial2</h2>
+    <input id="num1" placeholder="enter number2">
+    <button onclick="calc1()">calculation</button>
+    <p id="result1"></p>
+
+
+
+    
     <script>
         function calc(){
             let n=Number(num.value),f=1;
             for(let i=1;i<=n;i++) f*=i;
+                 result.innerHTML="Factorial = "+f;
+
+
+          function calc1(){
+            let n1=Number(num1.value),f=1;
+            for(let i=1;i<=n1;i++) f*=i;
             result.innerHTML="Factorial = "+f;
         }
     </script>
