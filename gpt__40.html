@@ -30,6 +30,7 @@
     <button onclick="increase()">+</button>
     <button onclick="decrease()">-</button>
     <button onclick="reset()">reset</button>
+    <button onclick="set()">set</button>
     <script>
         let number=0;
 
@@ -45,6 +46,12 @@
 
         function reset(){
             number=0;
+            document.getElementById("count").innerHTML=number;
+        }
+        
+
+         function set(){
+            number=999;
             document.getElementById("count").innerHTML=number;
         }
     </script>
